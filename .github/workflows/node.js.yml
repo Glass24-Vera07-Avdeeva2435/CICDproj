@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
     
 jobs:
-  uses: 
+  my_build_job:
     run-on: ubuntu-latest
     steps:
       -uses: actions/checkout@v3
